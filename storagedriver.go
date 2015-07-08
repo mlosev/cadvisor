@@ -54,7 +54,6 @@ func NewMemoryStorage(backendStorageName string) (*memory.InMemoryCache, error) 
 
 		backendStorage, err = influxdb.New(
 			hostname,
-			*argDbTable,
 			*argDbName,
 			*argDbUsername,
 			*argDbPassword,
