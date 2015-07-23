@@ -39,7 +39,6 @@ type influxdbStorage struct {
 
 // Series names
 const (
-	serMachineName string = "machine"
 	// Cumulative CPU usage
 	serCpuUsageTotal  string = "cpu_usage_total"
 	serCpuUsageSystem string = "cpu_usage_system"
